@@ -51,7 +51,7 @@ pipeline {
 
     post {
         always {
-            mail to: 'developer@example.com',
+            mail to: 'sarthakdutta0007@gmail.com',
                  subject: "Pipeline Notification",
                  body: "The pipeline stage has completed. Status: ${currentBuild.currentResult}"
         }
